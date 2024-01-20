@@ -4,10 +4,10 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && electron-builder -mwl",
+    "build": "tsc && vite build && electron-builder",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "release": "electron-builder -mwl"
+    "release": "electron-builder"
   },
   "dependencies": {
     "autoprefixer": "^10.4.17",
