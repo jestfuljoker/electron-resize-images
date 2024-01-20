@@ -18,6 +18,7 @@ module.exports = {
 	plugins: ['react-refresh', 'eslint-plugin-import-helpers'],
 	rules: {
 		'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
+		'no-mixed-spaces-and-tabs': 'off',
 		'import-helpers/order-imports': [
 			'warn',
 			{
