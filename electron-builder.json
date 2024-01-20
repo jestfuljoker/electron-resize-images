@@ -2,6 +2,17 @@
   "$schema": "https://raw.githubusercontent.com/electron-userland/electron-builder/master/packages/app-builder-lib/scheme.json",
   "appId": "com.image_resizer.app",
   "asar": true,
+  "publish": {
+    "provider": "github",
+    "repo": "electron-resize-images",
+    "owner": "Chriszao",
+    "private": false,
+    "releaseType": "release",
+    "vPrefixedTagName": true,
+    "publisherName": [
+      "Chriszao"
+    ]
+  },
   "productName": "Image Resizer",
   "directories": {
     "output": "release/${version}"
